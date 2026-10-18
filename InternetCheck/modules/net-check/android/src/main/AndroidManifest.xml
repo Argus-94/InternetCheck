@@ -1,0 +1,67 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
+  <uses-permission android:name="android.permission.VIBRATE" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <!-- Только чтобы узнать название Wi‑Fi сети для истории по сетям; запрашивается по желанию. -->
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+
+  <!-- Видимость приложений для выбора «что открыть, когда интернет появился». -->
+  <queries>
+    <intent>
+      <action android:name="android.intent.action.MAIN" />
+      <category android:name="android.intent.category.LAUNCHER" />
+    </intent>
+  </queries>
+
+  <application>
+    <service
+      android:name="expo.modules.netcheck.MonitorService"
+      android:exported="false"
+      android:foregroundServiceType="specialUse">
+      <property
+        android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+        android:value="Background monitoring of real internet speed and availability" />
+    </service>
+
+    <receiver
+      android:name="expo.modules.netcheck.BootReceiver"
+      android:exported="true">
+      <intent-filter>
+        <action android:name="android.intent.action.BOOT_COMPLETED" />
+        <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+        <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+      </intent-filter>
+    </receiver>
+
+    <receiver
+      android:name="expo.modules.netcheck.NetWidget"
+      android:exported="true"
+      android:label="Интернет есть?">
+      <intent-filter>
+        <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+      </intent-filter>
+      <meta-data
+        android:name="android.appwidget.provider"
+        android:resource="@xml/netcheck_widget_info" />
+    </receiver>
+
+    <service
+      android:name="expo.modules.netcheck.NetTileService"
+      android:exported="true"
+      android:icon="@drawable/ic_stat_good"
+      android:label="Интернет есть?"
+      android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+      <intent-filter>
+        <action android:name="android.service.quicksettings.action.QS_TILE" />
+      </intent-filter>
+    </service>
+  </application>
+</manifest>
