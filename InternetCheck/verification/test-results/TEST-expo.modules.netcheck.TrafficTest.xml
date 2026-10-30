@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="expo.modules.netcheck.TrafficTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-22T00:07:15.519Z" hostname="3ac9171ba434" time="0.001">
+  <properties/>
+  <testcase name="systemNoiseIsIgnored" classname="expo.modules.netcheck.TrafficTest" time="0.001"/>
+  <testcase name="tooShortWindowIsIgnored" classname="expo.modules.netcheck.TrafficTest" time="0.0"/>
+  <testcase name="missingSnapshotMeansNoAdjustment" classname="expo.modules.netcheck.TrafficTest" time="0.0"/>
+  <testcase name="otherAppsTrafficIsNetMinusOwn" classname="expo.modules.netcheck.TrafficTest" time="0.0"/>
+  <testcase name="uploadDirectionUsesTxCounters" classname="expo.modules.netcheck.TrafficTest" time="0.0"/>
+  <testcase name="counterResetIsIgnored" classname="expo.modules.netcheck.TrafficTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

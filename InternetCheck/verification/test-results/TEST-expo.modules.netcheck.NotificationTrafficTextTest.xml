@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="expo.modules.netcheck.NotificationTrafficTextTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-22T00:07:11.431Z" hostname="3ac9171ba434" time="0.002">
+  <properties/>
+  <testcase name="eachDirectionIsIndependentAndConnectionIsNotInSpeedLine" classname="expo.modules.netcheck.NotificationTrafficTextTest" time="0.001"/>
+  <testcase name="roundsAtUnitBoundaryWithoutThousandKilobytes" classname="expo.modules.netcheck.NotificationTrafficTextTest" time="0.0"/>
+  <testcase name="extremelyLargeValuesStayCompact" classname="expo.modules.netcheck.NotificationTrafficTextTest" time="0.0"/>
+  <testcase name="unitsStayWithNumbers" classname="expo.modules.netcheck.NotificationTrafficTextTest" time="0.0"/>
+  <testcase name="emptyAndIdleAreDifferent" classname="expo.modules.netcheck.NotificationTrafficTextTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

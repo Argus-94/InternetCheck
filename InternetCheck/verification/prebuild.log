@@ -1,0 +1,6 @@
+- Creating native directory (./android)
+✔ Created native directory | reusing /android
+- Updating package.json
+✔ Updated package.json | no changes
+- Running prebuild
+✔ Finished prebuild

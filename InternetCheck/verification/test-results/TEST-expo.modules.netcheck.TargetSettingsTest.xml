@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="expo.modules.netcheck.TargetSettingsTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-22T00:07:15.502Z" hostname="3ac9171ba434" time="0.004">
+  <properties/>
+  <testcase name="customThresholdDoesNotUseBuiltInUploadMinimum" classname="expo.modules.netcheck.TargetSettingsTest" time="0.001"/>
+  <testcase name="offlineNeverUsable" classname="expo.modules.netcheck.TargetSettingsTest" time="0.0"/>
+  <testcase name="standardAndGoodThresholds" classname="expo.modules.netcheck.TargetSettingsTest" time="0.003"/>
+  <testcase name="currentUploadSettingOverridesOldCombinedLevel" classname="expo.modules.netcheck.TargetSettingsTest" time="0.0"/>
+  <testcase name="wifiOnlyAllowsWifiAndEthernetNotCellOrVpn" classname="expo.modules.netcheck.TargetSettingsTest" time="0.0"/>
+  <testcase name="customUploadMustBeMeasuredWhenRequired" classname="expo.modules.netcheck.TargetSettingsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="expo.modules.netcheck.ManualCheckDeliveryTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-22T00:07:07.542Z" hostname="3ac9171ba434" time="0.342">
+  <properties/>
+  <testcase name="acceptedCommandFallsBackExactlyOnceIfServiceDiesBeforeDelivery[24]" classname="expo.modules.netcheck.ManualCheckDeliveryTest" time="0.123"/>
+  <testcase name="acceptedCommandFallsBackExactlyOnceIfServiceDiesBeforeDelivery" classname="expo.modules.netcheck.ManualCheckDeliveryTest" time="0.168"/>
+  <testcase name="callerGetsFalseWhenNoServiceCanAcceptCommand[24]" classname="expo.modules.netcheck.ManualCheckDeliveryTest" time="0.023"/>
+  <testcase name="callerGetsFalseWhenNoServiceCanAcceptCommand" classname="expo.modules.netcheck.ManualCheckDeliveryTest" time="0.026"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Intent = Intent { act=android.service.quicksettings.action.REQUEST_LISTENING (has extras) }; Matching wrappers: []
+]]></system-err>
+</testsuite>

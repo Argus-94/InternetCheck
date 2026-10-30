@@ -1,0 +1,30 @@
+{
+  "version": "1.0.16",
+  "versionCode": 16,
+  "package": "com.example.internetcheck",
+  "tests": {
+    "tests": 180,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint": {
+    "module": {
+      "Warning": 70
+    },
+    "app": {
+      "Warning": 40
+    }
+  },
+  "sameCertificateAsV15": true,
+  "certificateSHA256": "72bcfcc788ce77228dd1b294a4f93a1b5e90c7276ced0eec53f15e827f214180",
+  "zipalign16k": true,
+  "apkSHA256": "b601b3114e3152420f442ed9fce01f3d4e9a9d4a27d5053801913cac75dcdcf6",
+  "physicalDeviceTested": false,
+  "notificationPolicy": "48dp custom compact body in both contentView and bigContentView; no standalone BigTextStyle, regardless of old preference",
+  "limitations": [
+    "Android/OEM controls actual expansion; no universal force-collapse API",
+    "Long text or large fonts may be shortened in the 48dp area",
+    "No physical Android device connected"
+  ]
+}

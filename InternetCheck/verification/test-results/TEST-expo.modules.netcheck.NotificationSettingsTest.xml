@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="expo.modules.netcheck.NotificationSettingsTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-10-22T00:07:11.155Z" hostname="3ac9171ba434" time="0.274">
+  <properties/>
+  <testcase name="liveUpdatesKeepChannelButDoNotRestartSound" classname="expo.modules.netcheck.NotificationSettingsTest" time="0.042"/>
+  <testcase name="acknowledgedAlertReturnsToStatusChannel" classname="expo.modules.netcheck.NotificationSettingsTest" time="0.033"/>
+  <testcase name="expiredAlertReturnsToStatusChannel" classname="expo.modules.netcheck.NotificationSettingsTest" time="0.032"/>
+  <testcase name="systemChannelChoiceIsPreserved" classname="expo.modules.netcheck.NotificationSettingsTest" time="0.033"/>
+  <testcase name="statusAndQuietHaveNoSoundOrVibration" classname="expo.modules.netcheck.NotificationSettingsTest" time="0.03"/>
+  <testcase name="bothEventsUseSelectedSoundAndVolume" classname="expo.modules.netcheck.NotificationSettingsTest" time="0.067"/>
+  <testcase name="changingSoundDoesNotDeletePreviouslyActiveChannel" classname="expo.modules.netcheck.NotificationSettingsTest" time="0.037"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

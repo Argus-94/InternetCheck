@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="expo.modules.netcheck.RealtimeTrafficTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-10-22T00:07:11.710Z" hostname="3ac9171ba434" time="0.005">
+  <properties/>
+  <testcase name="unavailableCounterNeedsTwoValidSamplesToRecover" classname="expo.modules.netcheck.RealtimeTrafficTest" time="0.002"/>
+  <testcase name="measuresBothDirectionsUsingActualElapsedTime" classname="expo.modules.netcheck.RealtimeTrafficTest" time="0.0"/>
+  <testcase name="smallTransfersAreNotSuppressedAsNoise" classname="expo.modules.netcheck.RealtimeTrafficTest" time="0.001"/>
+  <testcase name="idleTrafficIsReallyZero" classname="expo.modules.netcheck.RealtimeTrafficTest" time="0.0"/>
+  <testcase name="zeroOrReversedTimeDoesNotDivideByZero" classname="expo.modules.netcheck.RealtimeTrafficTest" time="0.0"/>
+  <testcase name="fiveSecondBoundaryIsValidButSleepBeyondItIsUnknown" classname="expo.modules.netcheck.RealtimeTrafficTest" time="0.0"/>
+  <testcase name="changingTrafficSourceResetsBaseline" classname="expo.modules.netcheck.RealtimeTrafficTest" time="0.0"/>
+  <testcase name="connectionAndBothArrowsAreAlwaysVisible" classname="expo.modules.netcheck.RealtimeTrafficTest" time="0.001"/>
+  <testcase name="formatsBytesKilobytesAndMegabytesNotBits" classname="expo.modules.netcheck.RealtimeTrafficTest" time="0.0"/>
+  <testcase name="resetCounterIsUnknownAndRecovers" classname="expo.modules.netcheck.RealtimeTrafficTest" time="0.0"/>
+  <testcase name="firstSampleIsUnknownNotFakeZero" classname="expo.modules.netcheck.RealtimeTrafficTest" time="0.001"/>
+  <testcase name="unsupportedDirectionDoesNotHideTheOtherDirection" classname="expo.modules.netcheck.RealtimeTrafficTest" time="0.0"/>
+  <testcase name="wakingFromSleepDoesNotShowStaleAverage" classname="expo.modules.netcheck.RealtimeTrafficTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

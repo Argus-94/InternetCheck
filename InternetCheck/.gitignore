@@ -1,0 +1,13 @@
+node_modules/
+.expo/
+dist/
+web-build/
+/android/
+/ios/
+*.log
+.DS_Store
+expo-env.d.ts
+
+*.keystore
+*.jks
+signing.properties

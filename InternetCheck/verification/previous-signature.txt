@@ -1,0 +1,4 @@
+Signer #1 certificate DN: CN=InternetCheck Release, OU=Android, O=InternetCheck, C=NL
+Signer #1 certificate SHA-256 digest: 72bcfcc788ce77228dd1b294a4f93a1b5e90c7276ced0eec53f15e827f214180
+Signer #1 certificate SHA-1 digest: 186e308c40146e0cea182d585de6bc3d4d9575dc
+Signer #1 certificate MD5 digest: 8cddc9ec85380496fae0797f43e97189

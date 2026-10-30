@@ -1,0 +1,1128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 8.11.0">
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `autoSizeMaxTextSize` is only used in API level 26 and higher (current min is 24)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance or functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="        &lt;TextView android:id=&quot;@+id/nc_traffic_down&quot; android:layout_width=&quot;0dp&quot; android:layout_weight=&quot;1&quot; android:layout_height=&quot;match_parent&quot; android:gravity=&quot;center_vertical&quot; android:singleLine=&quot;true&quot; android:textAppearance=&quot;@android:style/TextAppearance.Material.Notification.Title&quot; android:textSize=&quot;15sp&quot; android:autoSizeTextType=&quot;uniform&quot; android:autoSizeMinTextSize=&quot;10sp&quot; android:autoSizeMaxTextSize=&quot;15sp&quot; android:autoSizeStepGranularity=&quot;1sp&quot; android:paddingEnd=&quot;4dp&quot; />"
+        errorLine2="                                                                                                                                                                                                                                                                                                                                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/res/layout/nc_notification_compact.xml"
+            line="4"
+            column="380"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `autoSizeMinTextSize` is only used in API level 26 and higher (current min is 24)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance or functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="        &lt;TextView android:id=&quot;@+id/nc_traffic_down&quot; android:layout_width=&quot;0dp&quot; android:layout_weight=&quot;1&quot; android:layout_height=&quot;match_parent&quot; android:gravity=&quot;center_vertical&quot; android:singleLine=&quot;true&quot; android:textAppearance=&quot;@android:style/TextAppearance.Material.Notification.Title&quot; android:textSize=&quot;15sp&quot; android:autoSizeTextType=&quot;uniform&quot; android:autoSizeMinTextSize=&quot;10sp&quot; android:autoSizeMaxTextSize=&quot;15sp&quot; android:autoSizeStepGranularity=&quot;1sp&quot; android:paddingEnd=&quot;4dp&quot; />"
+        errorLine2="                                                                                                                                                                                                                                                                                                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/res/layout/nc_notification_compact.xml"
+            line="4"
+            column="345"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `autoSizeStepGranularity` is only used in API level 26 and higher (current min is 24)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance or functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="        &lt;TextView android:id=&quot;@+id/nc_traffic_down&quot; android:layout_width=&quot;0dp&quot; android:layout_weight=&quot;1&quot; android:layout_height=&quot;match_parent&quot; android:gravity=&quot;center_vertical&quot; android:singleLine=&quot;true&quot; android:textAppearance=&quot;@android:style/TextAppearance.Material.Notification.Title&quot; android:textSize=&quot;15sp&quot; android:autoSizeTextType=&quot;uniform&quot; android:autoSizeMinTextSize=&quot;10sp&quot; android:autoSizeMaxTextSize=&quot;15sp&quot; android:autoSizeStepGranularity=&quot;1sp&quot; android:paddingEnd=&quot;4dp&quot; />"
+        errorLine2="                                                                                                                                                                                                                                                                                                                                                                                                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/res/layout/nc_notification_compact.xml"
+            line="4"
+            column="415"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `autoSizeTextType` is only used in API level 26 and higher (current min is 24)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance or functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="        &lt;TextView android:id=&quot;@+id/nc_traffic_down&quot; android:layout_width=&quot;0dp&quot; android:layout_weight=&quot;1&quot; android:layout_height=&quot;match_parent&quot; android:gravity=&quot;center_vertical&quot; android:singleLine=&quot;true&quot; android:textAppearance=&quot;@android:style/TextAppearance.Material.Notification.Title&quot; android:textSize=&quot;15sp&quot; android:autoSizeTextType=&quot;uniform&quot; android:autoSizeMinTextSize=&quot;10sp&quot; android:autoSizeMaxTextSize=&quot;15sp&quot; android:autoSizeStepGranularity=&quot;1sp&quot; android:paddingEnd=&quot;4dp&quot; />"
+        errorLine2="                                                                                                                                                                                                                                                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/res/layout/nc_notification_compact.xml"
+            line="4"
+            column="310"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `autoSizeMaxTextSize` is only used in API level 26 and higher (current min is 24)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance or functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="        &lt;TextView android:id=&quot;@+id/nc_traffic_up&quot; android:layout_width=&quot;0dp&quot; android:layout_weight=&quot;1&quot; android:layout_height=&quot;match_parent&quot; android:gravity=&quot;center_vertical&quot; android:singleLine=&quot;true&quot; android:textAppearance=&quot;@android:style/TextAppearance.Material.Notification.Title&quot; android:textSize=&quot;15sp&quot; android:autoSizeTextType=&quot;uniform&quot; android:autoSizeMinTextSize=&quot;10sp&quot; android:autoSizeMaxTextSize=&quot;15sp&quot; android:autoSizeStepGranularity=&quot;1sp&quot; />"
+        errorLine2="                                                                                                                                                                                                                                                                                                                                                                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/res/layout/nc_notification_compact.xml"
+            line="5"
+            column="378"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `autoSizeMinTextSize` is only used in API level 26 and higher (current min is 24)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance or functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="        &lt;TextView android:id=&quot;@+id/nc_traffic_up&quot; android:layout_width=&quot;0dp&quot; android:layout_weight=&quot;1&quot; android:layout_height=&quot;match_parent&quot; android:gravity=&quot;center_vertical&quot; android:singleLine=&quot;true&quot; android:textAppearance=&quot;@android:style/TextAppearance.Material.Notification.Title&quot; android:textSize=&quot;15sp&quot; android:autoSizeTextType=&quot;uniform&quot; android:autoSizeMinTextSize=&quot;10sp&quot; android:autoSizeMaxTextSize=&quot;15sp&quot; android:autoSizeStepGranularity=&quot;1sp&quot; />"
+        errorLine2="                                                                                                                                                                                                                                                                                                                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/res/layout/nc_notification_compact.xml"
+            line="5"
+            column="343"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `autoSizeStepGranularity` is only used in API level 26 and higher (current min is 24)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance or functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="        &lt;TextView android:id=&quot;@+id/nc_traffic_up&quot; android:layout_width=&quot;0dp&quot; android:layout_weight=&quot;1&quot; android:layout_height=&quot;match_parent&quot; android:gravity=&quot;center_vertical&quot; android:singleLine=&quot;true&quot; android:textAppearance=&quot;@android:style/TextAppearance.Material.Notification.Title&quot; android:textSize=&quot;15sp&quot; android:autoSizeTextType=&quot;uniform&quot; android:autoSizeMinTextSize=&quot;10sp&quot; android:autoSizeMaxTextSize=&quot;15sp&quot; android:autoSizeStepGranularity=&quot;1sp&quot; />"
+        errorLine2="                                                                                                                                                                                                                                                                                                                                                                                                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/res/layout/nc_notification_compact.xml"
+            line="5"
+            column="413"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `autoSizeTextType` is only used in API level 26 and higher (current min is 24)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance or functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="        &lt;TextView android:id=&quot;@+id/nc_traffic_up&quot; android:layout_width=&quot;0dp&quot; android:layout_weight=&quot;1&quot; android:layout_height=&quot;match_parent&quot; android:gravity=&quot;center_vertical&quot; android:singleLine=&quot;true&quot; android:textAppearance=&quot;@android:style/TextAppearance.Material.Notification.Title&quot; android:textSize=&quot;15sp&quot; android:autoSizeTextType=&quot;uniform&quot; android:autoSizeMinTextSize=&quot;10sp&quot; android:autoSizeMaxTextSize=&quot;15sp&quot; android:autoSizeStepGranularity=&quot;1sp&quot; />"
+        errorLine2="                                                                                                                                                                                                                                                                                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/res/layout/nc_notification_compact.xml"
+            line="5"
+            column="308"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `autoSizeMaxTextSize` is only used in API level 26 and higher (current min is 24)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance or functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="    &lt;TextView android:id=&quot;@+id/nc_status&quot; android:layout_width=&quot;match_parent&quot; android:layout_height=&quot;14dp&quot; android:gravity=&quot;center_vertical&quot; android:singleLine=&quot;true&quot; android:includeFontPadding=&quot;false&quot; android:ellipsize=&quot;end&quot; android:textAppearance=&quot;@android:style/TextAppearance.Material.Notification&quot; android:textStyle=&quot;bold&quot; android:textSize=&quot;12sp&quot; android:autoSizeTextType=&quot;uniform&quot; android:autoSizeMinTextSize=&quot;10sp&quot; android:autoSizeMaxTextSize=&quot;12sp&quot; android:autoSizeStepGranularity=&quot;1sp&quot; />"
+        errorLine2="                                                                                                                                                                                                                                                                                                                                                                                                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/res/layout/nc_notification_compact.xml"
+            line="7"
+            column="423"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `autoSizeMinTextSize` is only used in API level 26 and higher (current min is 24)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance or functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="    &lt;TextView android:id=&quot;@+id/nc_status&quot; android:layout_width=&quot;match_parent&quot; android:layout_height=&quot;14dp&quot; android:gravity=&quot;center_vertical&quot; android:singleLine=&quot;true&quot; android:includeFontPadding=&quot;false&quot; android:ellipsize=&quot;end&quot; android:textAppearance=&quot;@android:style/TextAppearance.Material.Notification&quot; android:textStyle=&quot;bold&quot; android:textSize=&quot;12sp&quot; android:autoSizeTextType=&quot;uniform&quot; android:autoSizeMinTextSize=&quot;10sp&quot; android:autoSizeMaxTextSize=&quot;12sp&quot; android:autoSizeStepGranularity=&quot;1sp&quot; />"
+        errorLine2="                                                                                                                                                                                                                                                                                                                                                                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/res/layout/nc_notification_compact.xml"
+            line="7"
+            column="388"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `autoSizeStepGranularity` is only used in API level 26 and higher (current min is 24)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance or functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="    &lt;TextView android:id=&quot;@+id/nc_status&quot; android:layout_width=&quot;match_parent&quot; android:layout_height=&quot;14dp&quot; android:gravity=&quot;center_vertical&quot; android:singleLine=&quot;true&quot; android:includeFontPadding=&quot;false&quot; android:ellipsize=&quot;end&quot; android:textAppearance=&quot;@android:style/TextAppearance.Material.Notification&quot; android:textStyle=&quot;bold&quot; android:textSize=&quot;12sp&quot; android:autoSizeTextType=&quot;uniform&quot; android:autoSizeMinTextSize=&quot;10sp&quot; android:autoSizeMaxTextSize=&quot;12sp&quot; android:autoSizeStepGranularity=&quot;1sp&quot; />"
+        errorLine2="                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/res/layout/nc_notification_compact.xml"
+            line="7"
+            column="458"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `autoSizeTextType` is only used in API level 26 and higher (current min is 24)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance or functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="    &lt;TextView android:id=&quot;@+id/nc_status&quot; android:layout_width=&quot;match_parent&quot; android:layout_height=&quot;14dp&quot; android:gravity=&quot;center_vertical&quot; android:singleLine=&quot;true&quot; android:includeFontPadding=&quot;false&quot; android:ellipsize=&quot;end&quot; android:textAppearance=&quot;@android:style/TextAppearance.Material.Notification&quot; android:textStyle=&quot;bold&quot; android:textSize=&quot;12sp&quot; android:autoSizeTextType=&quot;uniform&quot; android:autoSizeMinTextSize=&quot;10sp&quot; android:autoSizeMaxTextSize=&quot;12sp&quot; android:autoSizeStepGranularity=&quot;1sp&quot; />"
+        errorLine2="                                                                                                                                                                                                                                                                                                                                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/res/layout/nc_notification_compact.xml"
+            line="7"
+            column="353"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `autoSizeMaxTextSize` is only used in API level 26 and higher (current min is 24)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance or functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="    &lt;TextView android:id=&quot;@+id/nc_quality&quot; android:layout_width=&quot;match_parent&quot; android:layout_height=&quot;16dp&quot; android:gravity=&quot;center_vertical&quot; android:singleLine=&quot;true&quot; android:includeFontPadding=&quot;false&quot; android:ellipsize=&quot;end&quot; android:textAppearance=&quot;@android:style/TextAppearance.Material.Notification&quot; android:textSize=&quot;11sp&quot; android:autoSizeTextType=&quot;uniform&quot; android:autoSizeMinTextSize=&quot;9sp&quot; android:autoSizeMaxTextSize=&quot;11sp&quot; android:autoSizeStepGranularity=&quot;1sp&quot; />"
+        errorLine2="                                                                                                                                                                                                                                                                                                                                                                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/res/layout/nc_notification_compact.xml"
+            line="8"
+            column="398"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `autoSizeMinTextSize` is only used in API level 26 and higher (current min is 24)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance or functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="    &lt;TextView android:id=&quot;@+id/nc_quality&quot; android:layout_width=&quot;match_parent&quot; android:layout_height=&quot;16dp&quot; android:gravity=&quot;center_vertical&quot; android:singleLine=&quot;true&quot; android:includeFontPadding=&quot;false&quot; android:ellipsize=&quot;end&quot; android:textAppearance=&quot;@android:style/TextAppearance.Material.Notification&quot; android:textSize=&quot;11sp&quot; android:autoSizeTextType=&quot;uniform&quot; android:autoSizeMinTextSize=&quot;9sp&quot; android:autoSizeMaxTextSize=&quot;11sp&quot; android:autoSizeStepGranularity=&quot;1sp&quot; />"
+        errorLine2="                                                                                                                                                                                                                                                                                                                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/res/layout/nc_notification_compact.xml"
+            line="8"
+            column="364"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `autoSizeStepGranularity` is only used in API level 26 and higher (current min is 24)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance or functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="    &lt;TextView android:id=&quot;@+id/nc_quality&quot; android:layout_width=&quot;match_parent&quot; android:layout_height=&quot;16dp&quot; android:gravity=&quot;center_vertical&quot; android:singleLine=&quot;true&quot; android:includeFontPadding=&quot;false&quot; android:ellipsize=&quot;end&quot; android:textAppearance=&quot;@android:style/TextAppearance.Material.Notification&quot; android:textSize=&quot;11sp&quot; android:autoSizeTextType=&quot;uniform&quot; android:autoSizeMinTextSize=&quot;9sp&quot; android:autoSizeMaxTextSize=&quot;11sp&quot; android:autoSizeStepGranularity=&quot;1sp&quot; />"
+        errorLine2="                                                                                                                                                                                                                                                                                                                                                                                                                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/res/layout/nc_notification_compact.xml"
+            line="8"
+            column="433"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `autoSizeTextType` is only used in API level 26 and higher (current min is 24)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance or functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="    &lt;TextView android:id=&quot;@+id/nc_quality&quot; android:layout_width=&quot;match_parent&quot; android:layout_height=&quot;16dp&quot; android:gravity=&quot;center_vertical&quot; android:singleLine=&quot;true&quot; android:includeFontPadding=&quot;false&quot; android:ellipsize=&quot;end&quot; android:textAppearance=&quot;@android:style/TextAppearance.Material.Notification&quot; android:textSize=&quot;11sp&quot; android:autoSizeTextType=&quot;uniform&quot; android:autoSizeMinTextSize=&quot;9sp&quot; android:autoSizeMaxTextSize=&quot;11sp&quot; android:autoSizeStepGranularity=&quot;1sp&quot; />"
+        errorLine2="                                                                                                                                                                                                                                                                                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/res/layout/nc_notification_compact.xml"
+            line="8"
+            column="329"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `autoSizeMaxTextSize` is only used in API level 26 and higher (current min is 24)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance or functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="        &lt;TextView android:id=&quot;@+id/nc_traffic_down&quot; android:layout_width=&quot;0dp&quot; android:layout_weight=&quot;1&quot; android:layout_height=&quot;match_parent&quot; android:gravity=&quot;center_vertical&quot; android:singleLine=&quot;true&quot; android:textAppearance=&quot;@android:style/TextAppearance.Material.Notification.Title&quot; android:textSize=&quot;15sp&quot; android:autoSizeTextType=&quot;uniform&quot; android:autoSizeMinTextSize=&quot;10sp&quot; android:autoSizeMaxTextSize=&quot;15sp&quot; android:autoSizeStepGranularity=&quot;1sp&quot; android:paddingEnd=&quot;4dp&quot; />"
+        errorLine2="                                                                                                                                                                                                                                                                                                                                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/res/layout/nc_notification_expanded.xml"
+            line="4"
+            column="380"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `autoSizeMinTextSize` is only used in API level 26 and higher (current min is 24)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance or functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="        &lt;TextView android:id=&quot;@+id/nc_traffic_down&quot; android:layout_width=&quot;0dp&quot; android:layout_weight=&quot;1&quot; android:layout_height=&quot;match_parent&quot; android:gravity=&quot;center_vertical&quot; android:singleLine=&quot;true&quot; android:textAppearance=&quot;@android:style/TextAppearance.Material.Notification.Title&quot; android:textSize=&quot;15sp&quot; android:autoSizeTextType=&quot;uniform&quot; android:autoSizeMinTextSize=&quot;10sp&quot; android:autoSizeMaxTextSize=&quot;15sp&quot; android:autoSizeStepGranularity=&quot;1sp&quot; android:paddingEnd=&quot;4dp&quot; />"
+        errorLine2="                                                                                                                                                                                                                                                                                                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/res/layout/nc_notification_expanded.xml"
+            line="4"
+            column="345"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `autoSizeStepGranularity` is only used in API level 26 and higher (current min is 24)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance or functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="        &lt;TextView android:id=&quot;@+id/nc_traffic_down&quot; android:layout_width=&quot;0dp&quot; android:layout_weight=&quot;1&quot; android:layout_height=&quot;match_parent&quot; android:gravity=&quot;center_vertical&quot; android:singleLine=&quot;true&quot; android:textAppearance=&quot;@android:style/TextAppearance.Material.Notification.Title&quot; android:textSize=&quot;15sp&quot; android:autoSizeTextType=&quot;uniform&quot; android:autoSizeMinTextSize=&quot;10sp&quot; android:autoSizeMaxTextSize=&quot;15sp&quot; android:autoSizeStepGranularity=&quot;1sp&quot; android:paddingEnd=&quot;4dp&quot; />"
+        errorLine2="                                                                                                                                                                                                                                                                                                                                                                                                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/res/layout/nc_notification_expanded.xml"
+            line="4"
+            column="415"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `autoSizeTextType` is only used in API level 26 and higher (current min is 24)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance or functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="        &lt;TextView android:id=&quot;@+id/nc_traffic_down&quot; android:layout_width=&quot;0dp&quot; android:layout_weight=&quot;1&quot; android:layout_height=&quot;match_parent&quot; android:gravity=&quot;center_vertical&quot; android:singleLine=&quot;true&quot; android:textAppearance=&quot;@android:style/TextAppearance.Material.Notification.Title&quot; android:textSize=&quot;15sp&quot; android:autoSizeTextType=&quot;uniform&quot; android:autoSizeMinTextSize=&quot;10sp&quot; android:autoSizeMaxTextSize=&quot;15sp&quot; android:autoSizeStepGranularity=&quot;1sp&quot; android:paddingEnd=&quot;4dp&quot; />"
+        errorLine2="                                                                                                                                                                                                                                                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/res/layout/nc_notification_expanded.xml"
+            line="4"
+            column="310"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `autoSizeMaxTextSize` is only used in API level 26 and higher (current min is 24)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance or functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="        &lt;TextView android:id=&quot;@+id/nc_traffic_up&quot; android:layout_width=&quot;0dp&quot; android:layout_weight=&quot;1&quot; android:layout_height=&quot;match_parent&quot; android:gravity=&quot;center_vertical&quot; android:singleLine=&quot;true&quot; android:textAppearance=&quot;@android:style/TextAppearance.Material.Notification.Title&quot; android:textSize=&quot;15sp&quot; android:autoSizeTextType=&quot;uniform&quot; android:autoSizeMinTextSize=&quot;10sp&quot; android:autoSizeMaxTextSize=&quot;15sp&quot; android:autoSizeStepGranularity=&quot;1sp&quot; />"
+        errorLine2="                                                                                                                                                                                                                                                                                                                                                                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/res/layout/nc_notification_expanded.xml"
+            line="5"
+            column="378"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `autoSizeMinTextSize` is only used in API level 26 and higher (current min is 24)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance or functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="        &lt;TextView android:id=&quot;@+id/nc_traffic_up&quot; android:layout_width=&quot;0dp&quot; android:layout_weight=&quot;1&quot; android:layout_height=&quot;match_parent&quot; android:gravity=&quot;center_vertical&quot; android:singleLine=&quot;true&quot; android:textAppearance=&quot;@android:style/TextAppearance.Material.Notification.Title&quot; android:textSize=&quot;15sp&quot; android:autoSizeTextType=&quot;uniform&quot; android:autoSizeMinTextSize=&quot;10sp&quot; android:autoSizeMaxTextSize=&quot;15sp&quot; android:autoSizeStepGranularity=&quot;1sp&quot; />"
+        errorLine2="                                                                                                                                                                                                                                                                                                                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/res/layout/nc_notification_expanded.xml"
+            line="5"
+            column="343"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `autoSizeStepGranularity` is only used in API level 26 and higher (current min is 24)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance or functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="        &lt;TextView android:id=&quot;@+id/nc_traffic_up&quot; android:layout_width=&quot;0dp&quot; android:layout_weight=&quot;1&quot; android:layout_height=&quot;match_parent&quot; android:gravity=&quot;center_vertical&quot; android:singleLine=&quot;true&quot; android:textAppearance=&quot;@android:style/TextAppearance.Material.Notification.Title&quot; android:textSize=&quot;15sp&quot; android:autoSizeTextType=&quot;uniform&quot; android:autoSizeMinTextSize=&quot;10sp&quot; android:autoSizeMaxTextSize=&quot;15sp&quot; android:autoSizeStepGranularity=&quot;1sp&quot; />"
+        errorLine2="                                                                                                                                                                                                                                                                                                                                                                                                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/res/layout/nc_notification_expanded.xml"
+            line="5"
+            column="413"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `autoSizeTextType` is only used in API level 26 and higher (current min is 24)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance or functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="        &lt;TextView android:id=&quot;@+id/nc_traffic_up&quot; android:layout_width=&quot;0dp&quot; android:layout_weight=&quot;1&quot; android:layout_height=&quot;match_parent&quot; android:gravity=&quot;center_vertical&quot; android:singleLine=&quot;true&quot; android:textAppearance=&quot;@android:style/TextAppearance.Material.Notification.Title&quot; android:textSize=&quot;15sp&quot; android:autoSizeTextType=&quot;uniform&quot; android:autoSizeMinTextSize=&quot;10sp&quot; android:autoSizeMaxTextSize=&quot;15sp&quot; android:autoSizeStepGranularity=&quot;1sp&quot; />"
+        errorLine2="                                                                                                                                                                                                                                                                                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/res/layout/nc_notification_expanded.xml"
+            line="5"
+            column="308"/>
+    </issue>
+
+    <issue
+        id="BatteryLife"
+        severity="Warning"
+        message="Use of `REQUEST_IGNORE_BATTERY_OPTIMIZATIONS` violates the Play Store Content Policy regarding acceptable use cases, as described in https://developer.android.com/training/monitoring-device-state/doze-standby.html"
+        category="Correctness"
+        priority="5"
+        summary="Battery Life Issues"
+        explanation="This issue flags code that either&#xA;* negatively affects battery life, or&#xA;* uses APIs that have recently changed behavior to prevent background tasks from consuming memory and battery excessively.&#xA;&#xA;Generally, you should be using `WorkManager` instead.&#xA;&#xA;For more details on how to update your code, please see https://developer.android.com/topic/performance/background-optimization"
+        url="https://developer.android.com/topic/performance/background-optimization"
+        urls="https://developer.android.com/topic/performance/background-optimization"
+        errorLine1="                val i = Intent(Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS)"
+        errorLine2="                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/NetCheckModule.kt"
+            line="320"
+            column="41"/>
+    </issue>
+
+    <issue
+        id="UnspecifiedRegisterReceiverFlag"
+        severity="Warning"
+        message="`r` is missing `RECEIVER_EXPORTED` or `RECEIVER_NOT_EXPORTED` flag for unprotected broadcasts registered for an IntentFilter that cannot be inspected by lint"
+        category="Correctness"
+        priority="5"
+        summary="Missing `registerReceiver()` exported flag"
+        explanation="In Android U, all receivers registering for non-system broadcasts are required to include a flag indicating the receiver&apos;s exported state. Apps registering for non-system broadcasts should use the `ContextCompat#registerReceiver` APIs with flags set to either `RECEIVER_EXPORTED` or `RECEIVER_NOT_EXPORTED`.&#xA;&#xA;If you are not expecting broadcasts from other apps on the device, register your receiver with `RECEIVER_NOT_EXPORTED` to protect your receiver on all platform releases."
+        url="https://developer.android.com/reference/androidx/core/content/ContextCompat#registerReceiver(android.content.Context,android.content.BroadcastReceiver,android.content.IntentFilter,int)"
+        urls="https://developer.android.com/reference/androidx/core/content/ContextCompat#registerReceiver(android.content.Context,android.content.BroadcastReceiver,android.content.IntentFilter,int)"
+        errorLine1="            registerReceiver(r, f)"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/MonitorService.kt"
+            line="751"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="NewerVersionAvailable"
+        severity="Warning"
+        message="A newer version of org.robolectric:robolectric than 4.14.1 is available: 4.17"
+        category="Correctness"
+        priority="4"
+        summary="Newer Library Versions Available"
+        explanation="This detector checks with a central repository to see if there are newer versions available for the dependencies used by this project. This is similar to the `GradleDependency` check, which checks for newer versions available in the Android SDK tools and libraries, but this works with any MavenCentral dependency, and connects to the library every time, which makes it more flexible but also **much** slower."
+        errorLine1="  testImplementation &apos;org.robolectric:robolectric:4.14.1&apos;"
+        errorLine2="                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/build.gradle"
+            line="48"
+            column="22"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        severity="Warning"
+        message="Unnecessary; `SDK_INT` is always >= 24"
+        category="Performance"
+        priority="6"
+        summary="Obsolete SDK_INT Version Check"
+        explanation="This check flags version checks that are not necessary, because the `minSdkVersion` (or surrounding known API level) is already at least as high as the version checked for.&#xA;&#xA;Similarly, it also looks for resources in `-vNN` folders, such as `values-v14` where the version qualifier is less than or equal to the `minSdkVersion`, where the contents should be merged into the best folder."
+        errorLine1="            if (Build.VERSION.SDK_INT >= 24) {"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/NetTileService.kt"
+            line="77"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        severity="Warning"
+        message="Unnecessary; `SDK_INT` is never &lt; 24"
+        category="Performance"
+        priority="6"
+        summary="Obsolete SDK_INT Version Check"
+        explanation="This check flags version checks that are not necessary, because the `minSdkVersion` (or surrounding known API level) is already at least as high as the version checked for.&#xA;&#xA;Similarly, it also looks for resources in `-vNN` folders, such as `values-v14` where the version qualifier is less than or equal to the `minSdkVersion`, where the contents should be merged into the best folder."
+        errorLine1="        if (Build.VERSION.SDK_INT &lt; 24) return true"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/Notifier.kt"
+            line="103"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="            statePrefs(ctx).edit().putBoolean(KEY_SERVICE_STOPPED, true).apply()"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/MonitorService.kt"
+            line="93"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="            statePrefs.edit().remove(KEY_STABLE_USABLE).apply()"
+        errorLine2="            ~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/MonitorService.kt"
+            line="241"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="                statePrefs.edit().putBoolean(KEY_STABLE_USABLE, stableUsable!!).apply()"
+        errorLine2="                ~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/MonitorService.kt"
+            line="256"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="                getSharedPreferences(STATE_PREFS, Context.MODE_PRIVATE).edit()"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/MonitorService.kt"
+            line="282"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        getSharedPreferences(STATE_PREFS, Context.MODE_PRIVATE).edit()"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/MonitorService.kt"
+            line="335"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        getSharedPreferences(STATE_PREFS, Context.MODE_PRIVATE).edit()"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/MonitorService.kt"
+            line="640"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `String.toUri` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="                val u = if (uri.isEmpty()) Settings.System.DEFAULT_NOTIFICATION_URI else Uri.parse(uri)"
+        errorLine2="                                                                                         ~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/NetCheckModule.kt"
+            line="244"
+            column="90"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `String.toUri` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="                    Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS, Uri.parse(&quot;package:&quot; + ctx.packageName))"
+        errorLine2="                                                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/NetCheckModule.kt"
+            line="275"
+            column="74"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `String.toUri` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="                    val fallback = Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS, Uri.parse(&quot;package:&quot; + ctx.packageName))"
+        errorLine2="                                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/NetCheckModule.kt"
+            line="281"
+            column="89"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `String.toUri` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="                i.data = Uri.parse(&quot;package:&quot; + ctx.packageName)"
+        errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/NetCheckModule.kt"
+            line="321"
+            column="26"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `String.toUri` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="                i.data = Uri.parse(&quot;package:&quot; + ctx.packageName)"
+        errorLine2="                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/NetCheckModule.kt"
+            line="321"
+            column="26"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `String.toUri` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="                val parsed = try { Uri.parse(s) } catch (_: Exception) { null }"
+        errorLine2="                                   ~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/Notifier.kt"
+            line="95"
+            column="36"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `String.toUri` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="                &quot;url&quot; -> Intent(Intent.ACTION_VIEW, Uri.parse(target))"
+        errorLine2="                                                    ~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/Notifier.kt"
+            line="387"
+            column="53"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        sp(ctx).edit().putString(&quot;startupIssue&quot;, issue).apply()"
+        errorLine2="        ~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/Prefs.kt"
+            line="18"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        sp(ctx).edit().putBoolean(&quot;enabled&quot;, v).apply()"
+        errorLine2="        ~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/Prefs.kt"
+            line="22"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        sp(ctx).edit().putInt(&quot;intervalSec&quot;, v.coerceIn(30, 3600)).apply()"
+        errorLine2="        ~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/Prefs.kt"
+            line="27"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        sp(ctx).edit().putBoolean(&quot;alerts&quot;, v).apply()"
+        errorLine2="        ~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/Prefs.kt"
+            line="33"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        sp(ctx).edit().putBoolean(&quot;alertsLost&quot;, v).apply()"
+        errorLine2="        ~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/Prefs.kt"
+            line="39"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        sp(ctx).edit().putString(&quot;soundUri&quot;, uri).putString(&quot;soundTitle&quot;, title).apply()"
+        errorLine2="        ~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/Prefs.kt"
+            line="46"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        sp(ctx).edit().putBoolean(&quot;vibrate&quot;, v).apply()"
+        errorLine2="        ~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/Prefs.kt"
+            line="51"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        sp(ctx).edit().putBoolean(&quot;loud&quot;, v).apply()"
+        errorLine2="        ~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/Prefs.kt"
+            line="57"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        sp(ctx).edit().putBoolean(&quot;compactNotification&quot;, v).apply()"
+        errorLine2="        ~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/Prefs.kt"
+            line="63"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        sp(ctx).edit().putBoolean(&quot;fastWatch&quot;, v).apply()"
+        errorLine2="        ~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/Prefs.kt"
+            line="69"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        sp(ctx).edit().putBoolean(&quot;repeat&quot;, v).apply()"
+        errorLine2="        ~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/Prefs.kt"
+            line="75"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        sp(ctx).edit().putInt(&quot;repeatSec&quot;, v.coerceIn(10, 600)).apply()"
+        errorLine2="        ~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/Prefs.kt"
+            line="80"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        sp(ctx).edit()"
+        errorLine2="        ~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/Prefs.kt"
+            line="88"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        sp(ctx).edit()"
+        errorLine2="        ~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/Prefs.kt"
+            line="101"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        sp(ctx).edit().putBoolean(&quot;upCounts&quot;, v).apply()"
+        errorLine2="        ~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/Prefs.kt"
+            line="112"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        sp(ctx).edit()"
+        errorLine2="        ~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/Prefs.kt"
+            line="120"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        s.edit().putInt(&quot;mobMonth&quot;, k).putLong(&quot;mobBytes&quot;, cur + bytes).apply()"
+        errorLine2="        ~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/Prefs.kt"
+            line="143"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        s.edit().putInt(&quot;lightTick&quot;, v).apply()"
+        errorLine2="        ~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/Prefs.kt"
+            line="151"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        sp(ctx).edit()"
+        errorLine2="        ~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/Prefs.kt"
+            line="160"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        sp(ctx).edit().putBoolean(&quot;autostart&quot;, v).apply()"
+        errorLine2="        ~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/Prefs.kt"
+            line="169"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        sp(ctx).edit().putLong(&quot;nextCheckAt&quot;, v).apply()"
+        errorLine2="        ~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/Prefs.kt"
+            line="174"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        sp(ctx).edit().putLong(&quot;stateSince&quot;, v).apply()"
+        errorLine2="        ~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/Prefs.kt"
+            line="180"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        s.edit().putLong(&quot;traffic&quot;, s.getLong(&quot;traffic&quot;, 0L) + bytes).apply()"
+        errorLine2="        ~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/Prefs.kt"
+            line="188"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        sp(ctx).edit().putLong(&quot;traffic&quot;, 0L).putLong(&quot;mobBytes&quot;, 0L).apply()"
+        errorLine2="        ~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/Prefs.kt"
+            line="192"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        sp(ctx).edit()"
+        errorLine2="        ~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/Prefs.kt"
+            line="231"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        severity="Warning"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        category="Productivity"
+        priority="6"
+        summary="Use KTX extension function"
+        explanation="The Android KTX libraries decorates the Android platform SDK as well as various libraries with more convenient extension functions available from Kotlin, allowing you to use default parameters, named parameters, and more."
+        errorLine1="        val e = sp(ctx).edit().remove(&quot;history&quot;)"
+        errorLine2="                ~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/java/expo/modules/netcheck/Prefs.kt"
+            line="241"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        severity="Warning"
+        message="When you define `paddingEnd` you should probably also define `paddingStart` for right-to-left symmetry"
+        category="Internationalization:Bidirectional Text"
+        priority="6"
+        summary="Padding and margin symmetry"
+        explanation="If you specify padding or margin on the left side of a layout, you should probably also specify padding on the right side (and vice versa) for right-to-left layout symmetry."
+        errorLine1="        &lt;TextView android:id=&quot;@+id/nc_traffic_down&quot; android:layout_width=&quot;0dp&quot; android:layout_weight=&quot;1&quot; android:layout_height=&quot;match_parent&quot; android:gravity=&quot;center_vertical&quot; android:singleLine=&quot;true&quot; android:textAppearance=&quot;@android:style/TextAppearance.Material.Notification.Title&quot; android:textSize=&quot;15sp&quot; android:autoSizeTextType=&quot;uniform&quot; android:autoSizeMinTextSize=&quot;10sp&quot; android:autoSizeMaxTextSize=&quot;15sp&quot; android:autoSizeStepGranularity=&quot;1sp&quot; android:paddingEnd=&quot;4dp&quot; />"
+        errorLine2="                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/res/layout/nc_notification_compact.xml"
+            line="4"
+            column="453"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        severity="Warning"
+        message="When you define `paddingEnd` you should probably also define `paddingStart` for right-to-left symmetry"
+        category="Internationalization:Bidirectional Text"
+        priority="6"
+        summary="Padding and margin symmetry"
+        explanation="If you specify padding or margin on the left side of a layout, you should probably also specify padding on the right side (and vice versa) for right-to-left layout symmetry."
+        errorLine1="        &lt;TextView android:id=&quot;@+id/nc_traffic_down&quot; android:layout_width=&quot;0dp&quot; android:layout_weight=&quot;1&quot; android:layout_height=&quot;match_parent&quot; android:gravity=&quot;center_vertical&quot; android:singleLine=&quot;true&quot; android:textAppearance=&quot;@android:style/TextAppearance.Material.Notification.Title&quot; android:textSize=&quot;15sp&quot; android:autoSizeTextType=&quot;uniform&quot; android:autoSizeMinTextSize=&quot;10sp&quot; android:autoSizeMaxTextSize=&quot;15sp&quot; android:autoSizeStepGranularity=&quot;1sp&quot; android:paddingEnd=&quot;4dp&quot; />"
+        errorLine2="                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/ubuntu/work/internetcheck-v13/InternetCheck/modules/net-check/android/src/main/res/layout/nc_notification_expanded.xml"
+            line="4"
+            column="453"/>
+    </issue>
+
+</issues>

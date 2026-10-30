@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="expo.modules.netcheck.AlertPolicyTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-10-22T00:06:57.599Z" hostname="3ac9171ba434" time="0.154">
+  <properties/>
+  <testcase name="channelKeyDistinguishesLoudAndVibrateModes" classname="expo.modules.netcheck.AlertPolicyTest" time="0.107"/>
+  <testcase name="channelKeyHasStableDirectionPrefixAndSha256Digest" classname="expo.modules.netcheck.AlertPolicyTest" time="0.006"/>
+  <testcase name="quietHoursEqualBoundsAndDisabledAreAlwaysOff" classname="expo.modules.netcheck.AlertPolicyTest" time="0.007"/>
+  <testcase name="quietHoursNightWindowAndBoundaries" classname="expo.modules.netcheck.AlertPolicyTest" time="0.0"/>
+  <testcase name="repeatAllowedCoversEveryBooleanCombination" classname="expo.modules.netcheck.AlertPolicyTest" time="0.016"/>
+  <testcase name="channelKeyDistinguishesSilentDefaultAndCustomSounds" classname="expo.modules.netcheck.AlertPolicyTest" time="0.009"/>
+  <testcase name="quietHoursDaytimeWindowAndBoundaries" classname="expo.modules.netcheck.AlertPolicyTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

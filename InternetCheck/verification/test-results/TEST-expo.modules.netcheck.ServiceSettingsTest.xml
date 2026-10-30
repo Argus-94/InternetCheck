@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="expo.modules.netcheck.ServiceSettingsTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-10-22T00:07:11.735Z" hostname="3ac9171ba434" time="0.3">
+  <properties/>
+  <testcase name="intervalChangeReplacesOldSchedule" classname="expo.modules.netcheck.ServiceSettingsTest" time="0.055"/>
+  <testcase name="turningAlertsOffAlsoCancelsRepeat" classname="expo.modules.netcheck.ServiceSettingsTest" time="0.043"/>
+  <testcase name="turningFastWatchOffExitsQuickMode" classname="expo.modules.netcheck.ServiceSettingsTest" time="0.046"/>
+  <testcase name="turningLostAlertsOffDismissesExistingLostEvent" classname="expo.modules.netcheck.ServiceSettingsTest" time="0.04"/>
+  <testcase name="turningRepeatOffCancelsExistingRepeat" classname="expo.modules.netcheck.ServiceSettingsTest" time="0.038"/>
+  <testcase name="disablingUpEventsDoesNotDismissAllowedLostEvent" classname="expo.modules.netcheck.ServiceSettingsTest" time="0.04"/>
+  <testcase name="turningUpAlertsOffDismissesExistingUpEventWithoutStoppingService" classname="expo.modules.netcheck.ServiceSettingsTest" time="0.038"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

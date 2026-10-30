@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="expo.modules.netcheck.ProberLogicTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2026-10-22T00:07:11.435Z" hostname="3ac9171ba434" time="0.014">
+  <properties/>
+  <testcase name="confirmationUsesAnotherServer" classname="expo.modules.netcheck.ProberLogicTest" time="0.011"/>
+  <testcase name="qualityMedianJitterLoss" classname="expo.modules.netcheck.ProberLogicTest" time="0.0"/>
+  <testcase name="nothingSentIsUnmeasuredNotZero" classname="expo.modules.netcheck.ProberLogicTest" time="0.0"/>
+  <testcase name="connectionResetIsUnmeasured" classname="expo.modules.netcheck.ProberLogicTest" time="0.0"/>
+  <testcase name="bufferBoundaryDoesNotTurnFabricatedHighSpeedIntoZero" classname="expo.modules.netcheck.ProberLogicTest" time="0.0"/>
+  <testcase name="serverRefusalIsUnmeasured" classname="expo.modules.netcheck.ProberLogicTest" time="0.0"/>
+  <testcase name="deadlineHelperRejectsLateOrCancelledPublication" classname="expo.modules.netcheck.ProberLogicTest" time="0.0"/>
+  <testcase name="qualityLossPercent" classname="expo.modules.netcheck.ProberLogicTest" time="0.0"/>
+  <testcase name="qualityAllLost" classname="expo.modules.netcheck.ProberLogicTest" time="0.0"/>
+  <testcase name="slowUploadInsideOsBufferIsUnknownNotFabricated" classname="expo.modules.netcheck.ProberLogicTest" time="0.0"/>
+  <testcase name="slowUploadAboveOsBufferSubtractsBuffer" classname="expo.modules.netcheck.ProberLogicTest" time="0.0"/>
+  <testcase name="zeroReadCannotClaimWinnerButPositiveReadCan" classname="expo.modules.netcheck.ProberLogicTest" time="0.0"/>
+  <testcase name="completedUploadUsesFullSize" classname="expo.modules.netcheck.ProberLogicTest" time="0.0"/>
+  <testcase name="modeSelection" classname="expo.modules.netcheck.ProberLogicTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

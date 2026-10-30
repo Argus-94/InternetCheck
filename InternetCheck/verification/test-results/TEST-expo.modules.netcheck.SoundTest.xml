@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="expo.modules.netcheck.SoundTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2026-10-22T00:07:12.190Z" hostname="3ac9171ba434" time="3.0">
+  <properties/>
+  <testcase name="repeatPolicyRequiresAlertsRepeatUsableAndNonQuiet[24]" classname="expo.modules.netcheck.SoundTest" time="0.039"/>
+  <testcase name="repeatPolicyRequiresAlertsRepeatUsableAndNonQuiet[26]" classname="expo.modules.netcheck.SoundTest" time="0.031"/>
+  <testcase name="repeatPolicyRequiresAlertsRepeatUsableAndNonQuiet[28]" classname="expo.modules.netcheck.SoundTest" time="2.047"/>
+  <testcase name="repeatPolicyRequiresAlertsRepeatUsableAndNonQuiet" classname="expo.modules.netcheck.SoundTest" time="0.045"/>
+  <testcase name="defaultSilentAndCustomUriMatrixPreservesSoundAndVibration[24]" classname="expo.modules.netcheck.SoundTest" time="0.059"/>
+  <testcase name="defaultSilentAndCustomUriMatrixPreservesSoundAndVibration[26]" classname="expo.modules.netcheck.SoundTest" time="0.065"/>
+  <testcase name="defaultSilentAndCustomUriMatrixPreservesSoundAndVibration[28]" classname="expo.modules.netcheck.SoundTest" time="0.135"/>
+  <testcase name="defaultSilentAndCustomUriMatrixPreservesSoundAndVibration" classname="expo.modules.netcheck.SoundTest" time="0.066"/>
+  <testcase name="bothDirectionsHaveIndependentChannelsOnChannelApis[24]" classname="expo.modules.netcheck.SoundTest" time="0.029"/>
+  <testcase name="bothDirectionsHaveIndependentChannelsOnChannelApis[26]" classname="expo.modules.netcheck.SoundTest" time="0.036"/>
+  <testcase name="bothDirectionsHaveIndependentChannelsOnChannelApis[28]" classname="expo.modules.netcheck.SoundTest" time="0.034"/>
+  <testcase name="bothDirectionsHaveIndependentChannelsOnChannelApis" classname="expo.modules.netcheck.SoundTest" time="0.032"/>
+  <testcase name="invalidAndWhitespaceSoundSettingsFallBackToDefault[24]" classname="expo.modules.netcheck.SoundTest" time="0.038"/>
+  <testcase name="invalidAndWhitespaceSoundSettingsFallBackToDefault[26]" classname="expo.modules.netcheck.SoundTest" time="0.034"/>
+  <testcase name="invalidAndWhitespaceSoundSettingsFallBackToDefault[28]" classname="expo.modules.netcheck.SoundTest" time="0.033"/>
+  <testcase name="invalidAndWhitespaceSoundSettingsFallBackToDefault" classname="expo.modules.netcheck.SoundTest" time="0.032"/>
+  <testcase name="alertStateDurationReturnsToNormalStatus[24]" classname="expo.modules.netcheck.SoundTest" time="0.026"/>
+  <testcase name="alertStateDurationReturnsToNormalStatus[26]" classname="expo.modules.netcheck.SoundTest" time="0.027"/>
+  <testcase name="alertStateDurationReturnsToNormalStatus[28]" classname="expo.modules.netcheck.SoundTest" time="0.029"/>
+  <testcase name="alertStateDurationReturnsToNormalStatus" classname="expo.modules.netcheck.SoundTest" time="0.028"/>
+  <testcase name="notificationAvailabilityIsExplicitAndDoesNotDependOnSoundChoice[24]" classname="expo.modules.netcheck.SoundTest" time="0.033"/>
+  <testcase name="notificationAvailabilityIsExplicitAndDoesNotDependOnSoundChoice[26]" classname="expo.modules.netcheck.SoundTest" time="0.032"/>
+  <testcase name="notificationAvailabilityIsExplicitAndDoesNotDependOnSoundChoice[28]" classname="expo.modules.netcheck.SoundTest" time="0.035"/>
+  <testcase name="notificationAvailabilityIsExplicitAndDoesNotDependOnSoundChoice" classname="expo.modules.netcheck.SoundTest" time="0.03"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

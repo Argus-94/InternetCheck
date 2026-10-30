@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="expo.modules.netcheck.NotificationQualityLayoutTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-10-22T00:07:10.639Z" hostname="3ac9171ba434" time="0.505">
+  <properties/>
+  <testcase name="oldDetailedPreferenceKeepsStatusAndBothQualities[24]" classname="expo.modules.netcheck.NotificationQualityLayoutTest" time="0.048"/>
+  <testcase name="oldDetailedPreferenceKeepsStatusAndBothQualities[26]" classname="expo.modules.netcheck.NotificationQualityLayoutTest" time="0.048"/>
+  <testcase name="oldDetailedPreferenceKeepsStatusAndBothQualities" classname="expo.modules.netcheck.NotificationQualityLayoutTest" time="0.053"/>
+  <testcase name="runningCheckDoesNotPassPreviousResultsOffAsNew[24]" classname="expo.modules.netcheck.NotificationQualityLayoutTest" time="0.049"/>
+  <testcase name="runningCheckDoesNotPassPreviousResultsOffAsNew[26]" classname="expo.modules.netcheck.NotificationQualityLayoutTest" time="0.042"/>
+  <testcase name="runningCheckDoesNotPassPreviousResultsOffAsNew" classname="expo.modules.netcheck.NotificationQualityLayoutTest" time="0.048"/>
+  <testcase name="bothCompactFormsContainIndependentQualityNotIdleTraffic[24]" classname="expo.modules.netcheck.NotificationQualityLayoutTest" time="0.062"/>
+  <testcase name="bothCompactFormsContainIndependentQualityNotIdleTraffic[26]" classname="expo.modules.netcheck.NotificationQualityLayoutTest" time="0.063"/>
+  <testcase name="bothCompactFormsContainIndependentQualityNotIdleTraffic" classname="expo.modules.netcheck.NotificationQualityLayoutTest" time="0.091"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

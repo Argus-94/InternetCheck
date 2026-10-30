@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="expo.modules.netcheck.QuickTrafficBudgetTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-22T00:07:11.461Z" hostname="3ac9171ba434" time="0.246">
+  <properties/>
+  <testcase name="switchingTransportRetainsPreviousCellularConsumption" classname="expo.modules.netcheck.QuickTrafficBudgetTest" time="0.059"/>
+  <testcase name="wifiDoesNotConsumeCellularBudget" classname="expo.modules.netcheck.QuickTrafficBudgetTest" time="0.086"/>
+  <testcase name="invalidNegativeEstimateCannotReduceBudget" classname="expo.modules.netcheck.QuickTrafficBudgetTest" time="0.05"/>
+  <testcase name="everyCellularAttemptContributesToMonthlyBudget" classname="expo.modules.netcheck.QuickTrafficBudgetTest" time="0.051"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

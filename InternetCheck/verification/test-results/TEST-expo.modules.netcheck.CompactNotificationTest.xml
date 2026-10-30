@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="expo.modules.netcheck.CompactNotificationTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2026-10-22T00:06:58.220Z" hostname="3ac9171ba434" time="9.301">
+  <properties/>
+  <testcase name="bothLayoutsStayCompactByDefault[24]" classname="expo.modules.netcheck.CompactNotificationTest" time="4.208"/>
+  <testcase name="bothLayoutsStayCompactByDefault[26]" classname="expo.modules.netcheck.CompactNotificationTest" time="1.83"/>
+  <testcase name="bothLayoutsStayCompactByDefault" classname="expo.modules.netcheck.CompactNotificationTest" time="2.493"/>
+  <testcase name="standaloneTestIsNotBigTextByDefault[24]" classname="expo.modules.netcheck.CompactNotificationTest" time="0.063"/>
+  <testcase name="standaloneTestIsNotBigTextByDefault[26]" classname="expo.modules.netcheck.CompactNotificationTest" time="0.044"/>
+  <testcase name="standaloneTestIsNotBigTextByDefault" classname="expo.modules.netcheck.CompactNotificationTest" time="0.048"/>
+  <testcase name="compactModeDoesNotDisableFreshSignalsOrActions[24]" classname="expo.modules.netcheck.CompactNotificationTest" time="0.056"/>
+  <testcase name="compactModeDoesNotDisableFreshSignalsOrActions[26]" classname="expo.modules.netcheck.CompactNotificationTest" time="0.037"/>
+  <testcase name="compactModeDoesNotDisableFreshSignalsOrActions" classname="expo.modules.netcheck.CompactNotificationTest" time="0.044"/>
+  <testcase name="standaloneTestIgnoresOldDetailedPreference[24]" classname="expo.modules.netcheck.CompactNotificationTest" time="0.039"/>
+  <testcase name="standaloneTestIgnoresOldDetailedPreference[26]" classname="expo.modules.netcheck.CompactNotificationTest" time="0.063"/>
+  <testcase name="standaloneTestIgnoresOldDetailedPreference" classname="expo.modules.netcheck.CompactNotificationTest" time="0.053"/>
+  <testcase name="oldDetailedPreferenceCannotExpandStatus[24]" classname="expo.modules.netcheck.CompactNotificationTest" time="0.041"/>
+  <testcase name="oldDetailedPreferenceCannotExpandStatus[26]" classname="expo.modules.netcheck.CompactNotificationTest" time="0.039"/>
+  <testcase name="oldDetailedPreferenceCannotExpandStatus" classname="expo.modules.netcheck.CompactNotificationTest" time="0.04"/>
+  <testcase name="preferenceCanBeChangedAndRestored[24]" classname="expo.modules.netcheck.CompactNotificationTest" time="0.041"/>
+  <testcase name="preferenceCanBeChangedAndRestored[26]" classname="expo.modules.netcheck.CompactNotificationTest" time="0.032"/>
+  <testcase name="preferenceCanBeChangedAndRestored" classname="expo.modules.netcheck.CompactNotificationTest" time="0.031"/>
+  <testcase name="compactIsDefaultIncludingExistingPreferences[24]" classname="expo.modules.netcheck.CompactNotificationTest" time="0.027"/>
+  <testcase name="compactIsDefaultIncludingExistingPreferences[26]" classname="expo.modules.netcheck.CompactNotificationTest" time="0.029"/>
+  <testcase name="compactIsDefaultIncludingExistingPreferences" classname="expo.modules.netcheck.CompactNotificationTest" time="0.037"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

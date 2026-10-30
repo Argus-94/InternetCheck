@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="expo.modules.netcheck.ServiceStateRestoreTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-22T00:07:12.043Z" hostname="3ac9171ba434" time="0.143">
+  <properties/>
+  <testcase name="restoresConfirmedUsableEvenWhenLastProbeIsUnusable" classname="expo.modules.netcheck.ServiceStateRestoreTest" time="0.054"/>
+  <testcase name="migratesStableStateFromLastOnlyWhenConfirmedStateIsAbsent" classname="expo.modules.netcheck.ServiceStateRestoreTest" time="0.041"/>
+  <testcase name="restartAfterStopStartsWithoutCountingStoppedInterval" classname="expo.modules.netcheck.ServiceStateRestoreTest" time="0.048"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

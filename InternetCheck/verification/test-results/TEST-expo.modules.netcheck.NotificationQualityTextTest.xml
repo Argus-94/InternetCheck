@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="expo.modules.netcheck.NotificationQualityTextTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-10-22T00:07:11.147Z" hostname="3ac9171ba434" time="0.003">
+  <properties/>
+  <testcase name="cachedUploadIsExplicitEvenWhenIgnoredByOverallLevel" classname="expo.modules.netcheck.NotificationQualityTextTest" time="0.001"/>
+  <testcase name="weakDownloadDoesNotHideGoodUpload" classname="expo.modules.netcheck.NotificationQualityTextTest" time="0.001"/>
+  <testcase name="previousResultsAreMarkedDuringNewCheck" classname="expo.modules.netcheck.NotificationQualityTextTest" time="0.0"/>
+  <testcase name="missingAndZeroUploadAreDifferent" classname="expo.modules.netcheck.NotificationQualityTextTest" time="0.0"/>
+  <testcase name="unknownAndOfflineDoNotPretendToBeMeasurements" classname="expo.modules.netcheck.NotificationQualityTextTest" time="0.0"/>
+  <testcase name="weakUploadDoesNotHideGoodDownload" classname="expo.modules.netcheck.NotificationQualityTextTest" time="0.0"/>
+  <testcase name="eachDirectionUsesItsOwnThresholds" classname="expo.modules.netcheck.NotificationQualityTextTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
